@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hevingmey/Desktop/C#/HW/Lesson_3/Lesson_3/Lesson_3.csproj": {}
+    "/Users/hevingmey/Desktop/C#/CW/Lesson_3/Lesson_3/Lesson_3.csproj": {}
   },
   "projects": {
-    "/Users/hevingmey/Desktop/C#/HW/Lesson_3/Lesson_3/Lesson_3.csproj": {
+    "/Users/hevingmey/Desktop/C#/CW/Lesson_3/Lesson_3/Lesson_3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hevingmey/Desktop/C#/HW/Lesson_3/Lesson_3/Lesson_3.csproj",
+        "projectUniqueName": "/Users/hevingmey/Desktop/C#/CW/Lesson_3/Lesson_3/Lesson_3.csproj",
         "projectName": "Lesson_3",
-        "projectPath": "/Users/hevingmey/Desktop/C#/HW/Lesson_3/Lesson_3/Lesson_3.csproj",
+        "projectPath": "/Users/hevingmey/Desktop/C#/CW/Lesson_3/Lesson_3/Lesson_3.csproj",
         "packagesPath": "/Users/hevingmey/.nuget/packages/",
-        "outputPath": "/Users/hevingmey/Desktop/C#/HW/Lesson_3/Lesson_3/obj/",
+        "outputPath": "/Users/hevingmey/Desktop/C#/CW/Lesson_3/Lesson_3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/hevingmey/.nuget/NuGet/NuGet.Config"
