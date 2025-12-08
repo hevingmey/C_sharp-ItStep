@@ -4,15 +4,35 @@
     <projectFile>Lesson1.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="824a2507-604f-420e-bc3c-5b48118c86e4" name="Changes" comment="" />
+    <list default="true" id="824a2507-604f-420e-bc3c-5b48118c86e4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lesson1.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lesson1.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/Lesson1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/Lesson1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net10.0/Lesson1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net10.0/Lesson1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_2/.idea/.idea.lesson_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_2/.idea/.idea.lesson_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_05_12_2025/.idea/.idea.HW_05_12_2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_05_12_2025/.idea/.idea.HW_05_12_2025/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/bin/Debug/net10.0/HW_05_12_2025.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/bin/Debug/net10.0/HW_05_12_2025.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/bin/Debug/net10.0/HW_05_12_2025.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/bin/Debug/net10.0/HW_05_12_2025.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/obj/Debug/net10.0/ref/HW_05_12_2025.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/obj/Debug/net10.0/ref/HW_05_12_2025.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/obj/Debug/net10.0/refint/HW_05_12_2025.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_05_12_2025/HW_05_12_2025/obj/Debug/net10.0/refint/HW_05_12_2025.dll" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="36RLQzXc8FbDPqsBJWzQlYhUQqs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,7 +42,9 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/hevingmey/Desktop/C#/CW/Lesson1",
     "vue.rearranger.settings.migration": "true"
   }
@@ -58,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764964424541</updated>
       <workItem from="1764964430048" duration="49000" />
+      <workItem from="1765210971200" duration="17000" />
     </task>
     <servers />
   </component>

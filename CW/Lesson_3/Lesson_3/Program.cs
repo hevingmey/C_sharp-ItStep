@@ -157,7 +157,7 @@
             String str1 = new String("Hello");
             String str2 = new String('*', 5);
             string str3 = "Hello"; //рядки immutable
-            string str4 = "Hello ";
+            string str4 = "Hello "; 
             str4 += "World";
 
             Console.WriteLine(str4.Length);

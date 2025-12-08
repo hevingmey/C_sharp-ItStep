@@ -5,43 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52c50b7d-406d-48ca-b9c2-e1f1ec25852e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CW/Lesson_4/Lesson_4/Models/MyDate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CW/Lesson1/.idea/.idea.Lesson1.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/Lesson1/.idea/.idea.Lesson1.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CW/Lesson1/obj/Debug/net10.0/Lesson1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/Lesson1/obj/Debug/net10.0/Lesson1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CW/Lesson1/obj/Debug/net10.0/Lesson1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/Lesson1/obj/Debug/net10.0/Lesson1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CW/Lesson1/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/Lesson1/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CW/Lesson_3/Lesson_3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/Lesson_3/Lesson_3/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../CW/Lesson_3/Lesson_3/obj/Debug/net10.0/Lesson_3.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/Lesson_3/Lesson_3/obj/Debug/net10.0/Lesson_3.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../CW/Lesson_3/Lesson_3/obj/Debug/net10.0/Lesson_3.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/Lesson_3/Lesson_3/obj/Debug/net10.0/Lesson_3.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/Lesson_3/Lesson_3/obj/Lesson_3.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/Lesson_3/Lesson_3/obj/Lesson_3.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/Lesson_3/Lesson_3/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/Lesson_3/Lesson_3/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/Lesson_3/Lesson_3/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/Lesson_3/Lesson_3/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/Lesson_3/Lesson_3/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/Lesson_3/Lesson_3/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/Lesson_3/Lesson_3/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/Lesson_3/Lesson_3/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CW/lesson_2/.idea/.idea.lesson_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/lesson_2/.idea/.idea.lesson_2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/Debug/net10.0/lesson_2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/Debug/net10.0/lesson_2.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/Debug/net10.0/lesson_2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/Debug/net10.0/lesson_2.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/Debug/net10.0/lesson_2.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/Debug/net10.0/lesson_2.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/Debug/net10.0/lesson_2.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/Debug/net10.0/lesson_2.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/lesson_2.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/lesson_2.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/bin/Debug/net10.0/HW_03_12_2025.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/bin/Debug/net10.0/HW_03_12_2025.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/bin/Debug/net10.0/HW_03_12_2025.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/bin/Debug/net10.0/HW_03_12_2025.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/obj/Debug/net10.0/HW_03_12_2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/obj/Debug/net10.0/HW_03_12_2025.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/obj/Debug/net10.0/HW_03_12_2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/obj/Debug/net10.0/HW_03_12_2025.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/obj/Debug/net10.0/HW_03_12_2025.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/obj/Debug/net10.0/HW_03_12_2025.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/obj/Debug/net10.0/HW_03_12_2025.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/obj/Debug/net10.0/HW_03_12_2025.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/obj/Debug/net10.0/HW_03_12_2025.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/obj/Debug/net10.0/HW_03_12_2025.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/obj/Debug/net10.0/ref/HW_03_12_2025.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/obj/Debug/net10.0/ref/HW_03_12_2025.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/obj/Debug/net10.0/refint/HW_03_12_2025.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/obj/Debug/net10.0/refint/HW_03_12_2025.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_03_12_2025/HW_03_12_2025/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../CW/lesson_2/lesson_2/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HW_05_12_2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HW_05_12_2025/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW_05_12_2025/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HW_05_12_2025/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_05_12_2025/bin/Debug/net10.0/HW_05_12_2025.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HW_05_12_2025/bin/Debug/net10.0/HW_05_12_2025.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_05_12_2025/bin/Debug/net10.0/HW_05_12_2025.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HW_05_12_2025/bin/Debug/net10.0/HW_05_12_2025.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW_05_12_2025/obj/HW_05_12_2025.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/HW_05_12_2025/obj/HW_05_12_2025.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW_05_12_2025/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/HW_05_12_2025/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW_05_12_2025/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HW_05_12_2025/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW_05_12_2025/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/HW_05_12_2025/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW_05_12_2025/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/HW_05_12_2025/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/HW_05_12_2025/obj/Debug/net10.0/HW_05_12_2025.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_05_12_2025/obj/Debug/net10.0/ref/HW_05_12_2025.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HW_05_12_2025/obj/Debug/net10.0/ref/HW_05_12_2025.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_05_12_2025/obj/Debug/net10.0/refint/HW_05_12_2025.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HW_05_12_2025/obj/Debug/net10.0/refint/HW_05_12_2025.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,17 +52,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.HW_05_12_2025.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.HW_05_12_2025.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "XThreadsFramesViewSplitterKey": "0.42671615",
+    "git-widget-placeholder": "main",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="HW_05_12_2025" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -110,6 +97,9 @@
       <workItem from="1764965981913" duration="47000" />
       <workItem from="1764966673613" duration="7217000" />
       <workItem from="1764985832903" duration="1000" />
+      <workItem from="1765039817613" duration="122000" />
+      <workItem from="1765209872384" duration="1426000" />
+      <workItem from="1765223124802" duration="3830000" />
     </task>
     <servers />
   </component>
