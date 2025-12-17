@@ -4,11 +4,29 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("enter number");
-        int n = int.Parse(Console.ReadLine());
-        Calculator p1 = new Calculator(n);
-        p1.change();
-        p1.print();
+        Console.WriteLine("Calculate");
+        Console.WriteLine("chose number "); 
+        Console.WriteLine("1.decimal to binary");
+        Console.WriteLine("2.binary to decimal");
+      
+        int choice = int.Parse(Console.ReadLine());
+        Calculator test = new Calculator();
+        switch (choice)
+        {
+            case 1:
+                Console.WriteLine("Enter decimal :");
+                string dec=Console.ReadLine();
+                string decResult=test.db(dec);
+                Console.WriteLine(decResult);
+                        break;
+            case 2:
+                Console.WriteLine("Enter binary :");
+                string bin=Console.ReadLine();
+                int binResult = test.bd(bin);
+                Console.WriteLine(binResult);
+                break;
+        }
+        
 
 
     }

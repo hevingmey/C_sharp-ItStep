@@ -2,43 +2,35 @@ namespace HW_10_12_2025.calculator;
 
 public class Calculator
 {
-    private int a;
-    private int[] result;
-    private int counter=0;
-    
-    public Calculator(int a)
+
+    public string db(string input)
     {
-        this.a = a;
-        result=new int[32];
-        counter = 0;
+        checked
+        {
+           int a =int.Parse(input);
+           string result = "";
+           while (a > 0)
+           {
+               result = (a % 2) + result;
+               a /= 2;
+           }
+
+           return result;
+        }
+
     }
 
-    public void change()
+    public int bd(string w)
     {
-        counter = 0;
-        int temp1 = a;
- if (counter == 0)
-                     {
-                         result[counter] = 0;
-                         counter = 1;
-                     }
-        while (temp1 > 0)
+        int result = 0;
+        checked
         {
-            result[counter] = temp1 % 2;
-            counter++;
-            temp1 /= 2;
-           
-        } 
-       
-    }
-
-    public void print()
-        {
-            for (int i = counter-1; i >=0 ; i--)
+            for (int i = 0; i < w.Length; i++)
             {
-                Console.Write(result[i]);
+                int bit=w[w.Length - 1 - i]-'0';
+                result+=bit*(1<<i);
             }
-
-            Console.WriteLine();
+            return result;
         }
     }
+}

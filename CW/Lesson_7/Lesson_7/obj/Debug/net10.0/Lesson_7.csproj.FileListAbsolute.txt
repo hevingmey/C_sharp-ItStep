@@ -1,0 +1,15 @@
+/Users/hevingmey/Desktop/C#/CW/Lesson_7/Lesson_7/bin/Debug/net10.0/Lesson_7
+/Users/hevingmey/Desktop/C#/CW/Lesson_7/Lesson_7/bin/Debug/net10.0/Lesson_7.deps.json
+/Users/hevingmey/Desktop/C#/CW/Lesson_7/Lesson_7/bin/Debug/net10.0/Lesson_7.runtimeconfig.json
+/Users/hevingmey/Desktop/C#/CW/Lesson_7/Lesson_7/bin/Debug/net10.0/Lesson_7.dll
+/Users/hevingmey/Desktop/C#/CW/Lesson_7/Lesson_7/bin/Debug/net10.0/Lesson_7.pdb
+/Users/hevingmey/Desktop/C#/CW/Lesson_7/Lesson_7/obj/Debug/net10.0/Lesson_7.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hevingmey/Desktop/C#/CW/Lesson_7/Lesson_7/obj/Debug/net10.0/Lesson_7.AssemblyInfoInputs.cache
+/Users/hevingmey/Desktop/C#/CW/Lesson_7/Lesson_7/obj/Debug/net10.0/Lesson_7.AssemblyInfo.cs
+/Users/hevingmey/Desktop/C#/CW/Lesson_7/Lesson_7/obj/Debug/net10.0/Lesson_7.csproj.CoreCompileInputs.cache
+/Users/hevingmey/Desktop/C#/CW/Lesson_7/Lesson_7/obj/Debug/net10.0/Lesson_7.sourcelink.json
+/Users/hevingmey/Desktop/C#/CW/Lesson_7/Lesson_7/obj/Debug/net10.0/Lesson_7.dll
+/Users/hevingmey/Desktop/C#/CW/Lesson_7/Lesson_7/obj/Debug/net10.0/refint/Lesson_7.dll
+/Users/hevingmey/Desktop/C#/CW/Lesson_7/Lesson_7/obj/Debug/net10.0/Lesson_7.pdb
+/Users/hevingmey/Desktop/C#/CW/Lesson_7/Lesson_7/obj/Debug/net10.0/Lesson_7.genruntimeconfig.cache
+/Users/hevingmey/Desktop/C#/CW/Lesson_7/Lesson_7/obj/Debug/net10.0/ref/Lesson_7.dll

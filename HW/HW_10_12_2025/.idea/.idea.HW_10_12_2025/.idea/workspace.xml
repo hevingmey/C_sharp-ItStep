@@ -5,63 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14ee689c-a50d-42ea-8cfb-b1e37cfedb92" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/.idea/.idea.HW_10_12_2025/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/.idea/.idea.HW_10_12_2025/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/.idea/.idea.HW_10_12_2025/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/.idea/.idea.HW_10_12_2025/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/HW_10_12_2025.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/bin/Debug/net10.0/HW_10_12_2025" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/bin/Debug/net10.0/HW_10_12_2025.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/bin/Debug/net10.0/HW_10_12_2025.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/bin/Debug/net10.0/HW_10_12_2025.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/bin/Debug/net10.0/HW_10_12_2025.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/calculator/Calculator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.sourcelink.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/Debug/net10.0/apphost" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/Debug/net10.0/ref/HW_10_12_2025.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/Debug/net10.0/refint/HW_10_12_2025.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/HW_10_12_2025.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/HW_10_12_2025.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/HW_10_12_2025.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_10_12_2025/HW_10_12_2025/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/.idea/.idea.HW_12_12_2025/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/.idea/.idea.HW_12_12_2025/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/.idea/.idea.HW_12_12_2025/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/Employee1/Employee.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/HW_12_12_2025.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/obj/Debug/net10.0/HW_12_12_2025.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/obj/Debug/net10.0/HW_12_12_2025.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/obj/Debug/net10.0/HW_12_12_2025.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/obj/Debug/net10.0/HW_12_12_2025.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/obj/Debug/net10.0/HW_12_12_2025.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/obj/HW_12_12_2025.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/obj/HW_12_12_2025.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/obj/HW_12_12_2025.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../CW/HW_12_12_2025/HW_12_12_2025/obj/rider.project.restore.info" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CW/Lesson_7/Lesson_7/NewClass/MyClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HW_10_12_2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HW_10_12_2025/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_10_12_2025/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HW_10_12_2025/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_10_12_2025/bin/Debug/net10.0/HW_10_12_2025.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HW_10_12_2025/bin/Debug/net10.0/HW_10_12_2025.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_10_12_2025/bin/Debug/net10.0/HW_10_12_2025.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HW_10_12_2025/bin/Debug/net10.0/HW_10_12_2025.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_10_12_2025/calculator/Calculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HW_10_12_2025/calculator/Calculator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/HW_10_12_2025.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/ref/HW_10_12_2025.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/ref/HW_10_12_2025.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/refint/HW_10_12_2025.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HW_10_12_2025/obj/Debug/net10.0/refint/HW_10_12_2025.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_10_12_2025/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/HW_10_12_2025/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW_12_12_2025/HW_12_12_2025/obj/Debug/net10.0/HW_12_12_2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_12_12_2025/HW_12_12_2025/obj/Debug/net10.0/HW_12_12_2025.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW_12_12_2025/HW_12_12_2025/obj/Debug/net10.0/HW_12_12_2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../HW_12_12_2025/HW_12_12_2025/obj/Debug/net10.0/HW_12_12_2025.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +91,7 @@
       <workItem from="1765724433404" duration="392000" />
       <workItem from="1765738668411" duration="4996000" />
       <workItem from="1765746134943" duration="13000" />
+      <workItem from="1766001725808" duration="5015000" />
     </task>
     <servers />
   </component>
