@@ -1,0 +1,15 @@
+/Users/hevingmey/Desktop/C#/CW/Lesson_10/Lesson_10/bin/Debug/net10.0/Lesson_10
+/Users/hevingmey/Desktop/C#/CW/Lesson_10/Lesson_10/bin/Debug/net10.0/Lesson_10.deps.json
+/Users/hevingmey/Desktop/C#/CW/Lesson_10/Lesson_10/bin/Debug/net10.0/Lesson_10.runtimeconfig.json
+/Users/hevingmey/Desktop/C#/CW/Lesson_10/Lesson_10/bin/Debug/net10.0/Lesson_10.dll
+/Users/hevingmey/Desktop/C#/CW/Lesson_10/Lesson_10/bin/Debug/net10.0/Lesson_10.pdb
+/Users/hevingmey/Desktop/C#/CW/Lesson_10/Lesson_10/obj/Debug/net10.0/Lesson_10.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hevingmey/Desktop/C#/CW/Lesson_10/Lesson_10/obj/Debug/net10.0/Lesson_10.AssemblyInfoInputs.cache
+/Users/hevingmey/Desktop/C#/CW/Lesson_10/Lesson_10/obj/Debug/net10.0/Lesson_10.AssemblyInfo.cs
+/Users/hevingmey/Desktop/C#/CW/Lesson_10/Lesson_10/obj/Debug/net10.0/Lesson_10.csproj.CoreCompileInputs.cache
+/Users/hevingmey/Desktop/C#/CW/Lesson_10/Lesson_10/obj/Debug/net10.0/Lesson_10.sourcelink.json
+/Users/hevingmey/Desktop/C#/CW/Lesson_10/Lesson_10/obj/Debug/net10.0/Lesson_10.dll
+/Users/hevingmey/Desktop/C#/CW/Lesson_10/Lesson_10/obj/Debug/net10.0/refint/Lesson_10.dll
+/Users/hevingmey/Desktop/C#/CW/Lesson_10/Lesson_10/obj/Debug/net10.0/Lesson_10.pdb
+/Users/hevingmey/Desktop/C#/CW/Lesson_10/Lesson_10/obj/Debug/net10.0/Lesson_10.genruntimeconfig.cache
+/Users/hevingmey/Desktop/C#/CW/Lesson_10/Lesson_10/obj/Debug/net10.0/ref/Lesson_10.dll

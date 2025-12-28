@@ -5,7 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2818090-153a-4069-bf64-bee58645c013" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lesson_5/NewDirectory1/MyException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/obj/Debug/net10.0/Lesson_5.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net10.0/Lesson_5.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/obj/Debug/net10.0/Lesson_5.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/obj/Debug/net10.0/Lesson_5.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/obj/Lesson_5.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/obj/Lesson_5.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_5/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_5/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson_6/Lesson_6/obj/Debug/net10.0/Lesson_6.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_6/Lesson_6/obj/Debug/net10.0/Lesson_6.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson_6/Lesson_6/obj/Debug/net10.0/Lesson_6.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_6/Lesson_6/obj/Debug/net10.0/Lesson_6.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson_7/Lesson_7/obj/Debug/net10.0/Lesson_7.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_7/Lesson_7/obj/Debug/net10.0/Lesson_7.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson_7/Lesson_7/obj/Debug/net10.0/Lesson_7.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_7/Lesson_7/obj/Debug/net10.0/Lesson_7.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson_7/Lesson_7/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_7/Lesson_7/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_8/.idea/.idea.lesson_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_8/.idea/.idea.lesson_8/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_8/lesson_8/obj/Debug/net10.0/lesson_8.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_8/lesson_8/obj/Debug/net10.0/lesson_8.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_8/lesson_8/obj/Debug/net10.0/lesson_8.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_8/lesson_8/obj/Debug/net10.0/lesson_8.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_8/lesson_8/obj/lesson_8.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_8/lesson_8/obj/lesson_8.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_8/lesson_8/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_8/lesson_8/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_8/lesson_8/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_8/lesson_8/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson_8/lesson_8/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson_8/lesson_8/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/Debug/net10.0/HW_17_12_25.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/Debug/net10.0/HW_17_12_25.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/Debug/net10.0/HW_17_12_25.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/Debug/net10.0/HW_17_12_25.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/HW_17_12_25.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/HW_17_12_25.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,25 +44,25 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Lesson_5/NewDirectory1/MyException.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="36f1ZB5yPzir6xRUQmOZnnR6iki" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.Lesson_5.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.Lesson_5.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Lesson_5" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -71,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1765382867045</updated>
       <workItem from="1765382868271" duration="8144000" />
+      <workItem from="1766942936648" duration="42000" />
     </task>
     <servers />
   </component>
