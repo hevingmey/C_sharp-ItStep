@@ -7,20 +7,8 @@
     <list default="true" id="41db591b-b415-4208-a8ea-07de26f290a9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Lesson_7/Lesson_7/obj/Debug/net10.0/Lesson_7.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_7/Lesson_7/obj/Debug/net10.0/Lesson_7.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lesson_7/Lesson_7/obj/Debug/net10.0/Lesson_7.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_7/Lesson_7/obj/Debug/net10.0/Lesson_7.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_7/Lesson_7/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_7/Lesson_7/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.lesson_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lesson_8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_8/obj/Debug/net10.0/lesson_8.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_8/obj/Debug/net10.0/lesson_8.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_8/obj/Debug/net10.0/lesson_8.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_8/obj/Debug/net10.0/lesson_8.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_8/obj/lesson_8.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_8/obj/lesson_8.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_8/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_8/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_8/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_8/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_8/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_8/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/Debug/net10.0/HW_17_12_25.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/Debug/net10.0/HW_17_12_25.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/Debug/net10.0/HW_17_12_25.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/Debug/net10.0/HW_17_12_25.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/HW_17_12_25.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/HW_17_12_25.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../HW/HW_17_12_25/HW_17_12_25/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +76,7 @@
       <workItem from="1766436237374" duration="352000" />
       <workItem from="1766597815708" duration="10000" />
       <workItem from="1766942860596" duration="15000" />
+      <workItem from="1767041705222" duration="14000" />
     </task>
     <servers />
   </component>
