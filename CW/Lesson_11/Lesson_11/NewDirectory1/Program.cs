@@ -64,6 +64,14 @@ internal class Program
             Console.WriteLine(p.Price);
             Console.WriteLine("----------------------");
         }        
+        shop.Sorting();
+        foreach (Product p in shop)
+        {
+            Console.WriteLine(p.Id);
+            Console.WriteLine(p.Name);
+            Console.WriteLine(p.Price);
+            Console.WriteLine("----------------------");
+        }
         // Calculator<int> c = new Calculator<int>();
         // Console.WriteLine(c.Add(1, 2));
         // Pair<string,int>p1=new Pair<string, int>();

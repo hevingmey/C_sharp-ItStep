@@ -7,12 +7,14 @@ public class Shop : IEnumerable<Product>
 {
     public string Name { get; set; }
 
-    private IList<Product> products = new List<Product>();
+    private List<Product> products = new List<Product>();
 
     public Shop(string name)
     {
         Name = name;
     }
+
+    
 
     public void AddProduct(Product product)
     {
@@ -27,6 +29,11 @@ public class Shop : IEnumerable<Product>
     IEnumerator IEnumerable.GetEnumerator()
     {
         return GetEnumerator();
+    }
+
+    public void Sorting()
+    {
+        products.Sort(); 
     }
 }
 
