@@ -99,7 +99,7 @@ namespace Lessone_12
             Console.WriteLine("покоління після: " + genAfter);
 
             Console.WriteLine("купа після: " + GC.GetTotalMemory(false));
-            Console.WriteLine("час GC: " + sw.ElapsedMilliseconds + " ms");
+            Console.WriteLine("час GC " + sw.Elapsed.TotalSeconds + " s");
         }
 
         public void Dispose()
@@ -128,7 +128,7 @@ namespace Lessone_12
             allocator.Check();
 
             all.Stop();
-            Console.WriteLine(" загальний час: " + all.ElapsedMilliseconds + " ms");
+            Console.WriteLine("загальний час: " + all.Elapsed.TotalSeconds + " s");
 
             allocator.Dispose();
         }
