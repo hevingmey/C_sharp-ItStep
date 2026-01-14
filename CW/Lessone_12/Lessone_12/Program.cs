@@ -95,11 +95,10 @@ namespace Lessone_12
 
             sw.Stop();
 
-            int genAfter = GeneFirst();
-            Console.WriteLine("покоління після: " + genAfter);
+            var info = GC.GetGCMemoryInfo();
+            Console.WriteLine("розмір купи після: " + info.HeapSizeBytes);
+            Console.WriteLine("час GC: " + sw.Elapsed.TotalSeconds + " s");
 
-            Console.WriteLine("купа після: " + GC.GetTotalMemory(false));
-            Console.WriteLine("час GC " + sw.Elapsed.TotalSeconds + " s");
         }
 
         public void Dispose()
