@@ -36,15 +36,21 @@ class Shop:IDisposable
             disposed = true;
         }
     }
+            //3
+    ~Shop()
+    {
+        Console.WriteLine("shop destroyed");
+    }
 }
 
                   
                         // 1
-// class Play
+// class Play: IDisposable
 // {
 //     public string Title{get; set;}
 //     public string Author{get; set;}
 //     public string Year{get; set;}
+      //  private bool disposed = false;
 //
 //     public Play(string title, string author, string year)
 //     {
@@ -61,6 +67,15 @@ class Shop:IDisposable
 //     {
 //         Console.WriteLine("destroed ");
 //     }
+                //3
+        // public void Dispose()
+        // {
+        //     if (!disposed)
+        //     {
+        //         Console.WriteLine("disposed complete");
+        //         disposed = true;
+        //     }
+        // }
 //     
 // }
 class Program
