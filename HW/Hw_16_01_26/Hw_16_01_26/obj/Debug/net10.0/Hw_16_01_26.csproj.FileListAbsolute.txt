@@ -1,0 +1,15 @@
+/Users/hevingmey/Desktop/C#/HW/Hw_16_01_26/Hw_16_01_26/bin/Debug/net10.0/Hw_16_01_26
+/Users/hevingmey/Desktop/C#/HW/Hw_16_01_26/Hw_16_01_26/bin/Debug/net10.0/Hw_16_01_26.deps.json
+/Users/hevingmey/Desktop/C#/HW/Hw_16_01_26/Hw_16_01_26/bin/Debug/net10.0/Hw_16_01_26.runtimeconfig.json
+/Users/hevingmey/Desktop/C#/HW/Hw_16_01_26/Hw_16_01_26/bin/Debug/net10.0/Hw_16_01_26.dll
+/Users/hevingmey/Desktop/C#/HW/Hw_16_01_26/Hw_16_01_26/bin/Debug/net10.0/Hw_16_01_26.pdb
+/Users/hevingmey/Desktop/C#/HW/Hw_16_01_26/Hw_16_01_26/obj/Debug/net10.0/Hw_16_01_26.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hevingmey/Desktop/C#/HW/Hw_16_01_26/Hw_16_01_26/obj/Debug/net10.0/Hw_16_01_26.AssemblyInfoInputs.cache
+/Users/hevingmey/Desktop/C#/HW/Hw_16_01_26/Hw_16_01_26/obj/Debug/net10.0/Hw_16_01_26.AssemblyInfo.cs
+/Users/hevingmey/Desktop/C#/HW/Hw_16_01_26/Hw_16_01_26/obj/Debug/net10.0/Hw_16_01_26.csproj.CoreCompileInputs.cache
+/Users/hevingmey/Desktop/C#/HW/Hw_16_01_26/Hw_16_01_26/obj/Debug/net10.0/Hw_16_01_26.sourcelink.json
+/Users/hevingmey/Desktop/C#/HW/Hw_16_01_26/Hw_16_01_26/obj/Debug/net10.0/Hw_16_01_26.dll
+/Users/hevingmey/Desktop/C#/HW/Hw_16_01_26/Hw_16_01_26/obj/Debug/net10.0/refint/Hw_16_01_26.dll
+/Users/hevingmey/Desktop/C#/HW/Hw_16_01_26/Hw_16_01_26/obj/Debug/net10.0/Hw_16_01_26.pdb
+/Users/hevingmey/Desktop/C#/HW/Hw_16_01_26/Hw_16_01_26/obj/Debug/net10.0/Hw_16_01_26.genruntimeconfig.cache
+/Users/hevingmey/Desktop/C#/HW/Hw_16_01_26/Hw_16_01_26/obj/Debug/net10.0/ref/Hw_16_01_26.dll
