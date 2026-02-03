@@ -1,0 +1,15 @@
+/Users/hevingmey/Desktop/C#/HW/music/music/obj/Debug/net10.0/music.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hevingmey/Desktop/C#/HW/music/music/obj/Debug/net10.0/music.AssemblyInfoInputs.cache
+/Users/hevingmey/Desktop/C#/HW/music/music/obj/Debug/net10.0/music.AssemblyInfo.cs
+/Users/hevingmey/Desktop/C#/HW/music/music/obj/Debug/net10.0/music.csproj.CoreCompileInputs.cache
+/Users/hevingmey/Desktop/C#/HW/music/music/obj/Debug/net10.0/music.sourcelink.json
+/Users/hevingmey/Desktop/C#/HW/music/music/bin/Debug/net10.0/music
+/Users/hevingmey/Desktop/C#/HW/music/music/bin/Debug/net10.0/music.deps.json
+/Users/hevingmey/Desktop/C#/HW/music/music/bin/Debug/net10.0/music.runtimeconfig.json
+/Users/hevingmey/Desktop/C#/HW/music/music/bin/Debug/net10.0/music.dll
+/Users/hevingmey/Desktop/C#/HW/music/music/bin/Debug/net10.0/music.pdb
+/Users/hevingmey/Desktop/C#/HW/music/music/obj/Debug/net10.0/music.dll
+/Users/hevingmey/Desktop/C#/HW/music/music/obj/Debug/net10.0/refint/music.dll
+/Users/hevingmey/Desktop/C#/HW/music/music/obj/Debug/net10.0/music.pdb
+/Users/hevingmey/Desktop/C#/HW/music/music/obj/Debug/net10.0/music.genruntimeconfig.cache
+/Users/hevingmey/Desktop/C#/HW/music/music/obj/Debug/net10.0/ref/music.dll

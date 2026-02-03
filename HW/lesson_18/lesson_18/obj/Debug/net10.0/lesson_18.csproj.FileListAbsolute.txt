@@ -1,0 +1,15 @@
+/Users/hevingmey/Desktop/C#/HW/lesson_18/lesson_18/bin/Debug/net10.0/lesson_18
+/Users/hevingmey/Desktop/C#/HW/lesson_18/lesson_18/bin/Debug/net10.0/lesson_18.deps.json
+/Users/hevingmey/Desktop/C#/HW/lesson_18/lesson_18/bin/Debug/net10.0/lesson_18.runtimeconfig.json
+/Users/hevingmey/Desktop/C#/HW/lesson_18/lesson_18/bin/Debug/net10.0/lesson_18.dll
+/Users/hevingmey/Desktop/C#/HW/lesson_18/lesson_18/bin/Debug/net10.0/lesson_18.pdb
+/Users/hevingmey/Desktop/C#/HW/lesson_18/lesson_18/obj/Debug/net10.0/lesson_18.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hevingmey/Desktop/C#/HW/lesson_18/lesson_18/obj/Debug/net10.0/lesson_18.AssemblyInfoInputs.cache
+/Users/hevingmey/Desktop/C#/HW/lesson_18/lesson_18/obj/Debug/net10.0/lesson_18.AssemblyInfo.cs
+/Users/hevingmey/Desktop/C#/HW/lesson_18/lesson_18/obj/Debug/net10.0/lesson_18.csproj.CoreCompileInputs.cache
+/Users/hevingmey/Desktop/C#/HW/lesson_18/lesson_18/obj/Debug/net10.0/lesson_18.sourcelink.json
+/Users/hevingmey/Desktop/C#/HW/lesson_18/lesson_18/obj/Debug/net10.0/lesson_18.dll
+/Users/hevingmey/Desktop/C#/HW/lesson_18/lesson_18/obj/Debug/net10.0/refint/lesson_18.dll
+/Users/hevingmey/Desktop/C#/HW/lesson_18/lesson_18/obj/Debug/net10.0/lesson_18.pdb
+/Users/hevingmey/Desktop/C#/HW/lesson_18/lesson_18/obj/Debug/net10.0/lesson_18.genruntimeconfig.cache
+/Users/hevingmey/Desktop/C#/HW/lesson_18/lesson_18/obj/Debug/net10.0/ref/lesson_18.dll
