@@ -35,6 +35,7 @@ class Program
         // використана окрема папка де зберіг методи 
       
         Metod.CreateProduct(context);
+        Metod.showProductsFromCateg(context);
         
     }
 }

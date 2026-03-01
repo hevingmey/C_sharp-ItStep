@@ -74,6 +74,10 @@ public static void deleteProduct(ONLShopDbcontext context)
         var products = context.Products
             .Where(p => p.StockQuantity == 0)
             .ToList();
+        foreach (var p in products)
+        {
+            Console.WriteLine($"{p.Id},{p.Name},{p.Price}");
+        }
     }
 
   public  static void showProduct(ONLShopDbcontext context)
@@ -82,5 +86,35 @@ public static void deleteProduct(ONLShopDbcontext context)
             .OrderByDescending(p => p.Price)
             .Take(3)
             .ToList();
+        foreach (var p in product)
+        {
+            Console.WriteLine($"{p.Id},{p.Name},{p.Price},{p.StockQuantity},{p.Description}");
+        }
+    }
+
+    public static void showProductsFromCateg(ONLShopDbcontext context)
+    {
+        Console.WriteLine("enter Id categ");
+        int idcateg=int.Parse(Console.ReadLine());
+        var products = context.Products
+            .Where(p => p.CategoryId == idcateg)
+            .OrderByDescending(p => p.Price)
+            .ToList();
+        foreach (var p in products)
+        {
+            Console.WriteLine($"{p.Id},{p.Name},{p.Price}");
+        }
+
+
+    }
+
+    public static void showCategFromProd(ONLShopDbcontext context)
+    {
+        Console.WriteLine("enter Id prod");
+        int idprod=int.Parse(Console.ReadLine());
+        var product = context.Products
+            .Include(p => p.Category)
+            .FirstOrDefault(p => p.Id == idprod);
+        Console.WriteLine($"{product.Category.Name},{product.Id}");
     }
 }
