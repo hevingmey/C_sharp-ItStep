@@ -4,6 +4,7 @@ using Academy.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace lesson_sql.Migrations
 {
     [DbContext(typeof(AcademyDbContext))]
-    partial class AcademyDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260301145014_dtcomp")]
+    partial class dtcomp
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -76,7 +79,7 @@ namespace lesson_sql.Migrations
 
                     b.HasIndex("subjectId");
 
-                    b.ToTable("Grades", t =>
+                    b.ToTable("Grade", t =>
                         {
                             t.HasCheckConstraint("CK_Grade_Value", "[Value] between 1 and 12");
                         });
@@ -149,7 +152,7 @@ namespace lesson_sql.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Subjects");
+                    b.ToTable("Subject");
                 });
 
             modelBuilder.Entity("Academy.Entitys.Curators", b =>
