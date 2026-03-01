@@ -154,3 +154,10 @@
 /Users/hevingmey/Desktop/C#/HW/lesson_sql/Academy/obj/Debug/net10.0/Academy.pdb
 /Users/hevingmey/Desktop/C#/HW/lesson_sql/Academy/obj/Debug/net10.0/Academy.genruntimeconfig.cache
 /Users/hevingmey/Desktop/C#/HW/lesson_sql/Academy/obj/Debug/net10.0/ref/Academy.dll
+/Users/hevingmey/Desktop/C#/HW/lesson_sql/Academy/bin/Debug/net10.0/Microsoft.Extensions.Configuration.dll
+/Users/hevingmey/Desktop/C#/HW/lesson_sql/Academy/bin/Debug/net10.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/Users/hevingmey/Desktop/C#/HW/lesson_sql/Academy/bin/Debug/net10.0/Microsoft.Extensions.Configuration.Json.dll
+/Users/hevingmey/Desktop/C#/HW/lesson_sql/Academy/bin/Debug/net10.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/hevingmey/Desktop/C#/HW/lesson_sql/Academy/bin/Debug/net10.0/Microsoft.Extensions.FileProviders.Physical.dll
+/Users/hevingmey/Desktop/C#/HW/lesson_sql/Academy/bin/Debug/net10.0/Microsoft.Extensions.FileSystemGlobbing.dll
+/Users/hevingmey/Desktop/C#/HW/lesson_sql/Academy/bin/Debug/net10.0/appsettings.json

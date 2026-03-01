@@ -4,11 +4,7 @@
     <projectFile>lesson_sql/lesson_sql.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88d86f16-0fb3-4864-8231-446ec5251686" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Academy/Academy.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Academy/Context/AcademyDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Academy/Entitys/student.cs" afterDir="false" />
-    </list>
+    <list default="true" id="88d86f16-0fb3-4864-8231-446ec5251686" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +90,7 @@
       <workItem from="1771777944957" duration="1770000" />
       <workItem from="1771780340196" duration="612000" />
       <workItem from="1771863959168" duration="74000" />
-      <workItem from="1771864061056" duration="5701000" />
+      <workItem from="1771864061056" duration="11908000" />
     </task>
     <servers />
   </component>
