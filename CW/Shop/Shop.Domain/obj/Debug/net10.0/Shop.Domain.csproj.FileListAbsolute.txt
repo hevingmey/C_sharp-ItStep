@@ -1,0 +1,12 @@
+/Users/hevingmey/Desktop/C#/CW/Shop/Shop.Domain/bin/Debug/net10.0/Shop.Domain.deps.json
+/Users/hevingmey/Desktop/C#/CW/Shop/Shop.Domain/bin/Debug/net10.0/Shop.Domain.dll
+/Users/hevingmey/Desktop/C#/CW/Shop/Shop.Domain/bin/Debug/net10.0/Shop.Domain.pdb
+/Users/hevingmey/Desktop/C#/CW/Shop/Shop.Domain/obj/Debug/net10.0/Shop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hevingmey/Desktop/C#/CW/Shop/Shop.Domain/obj/Debug/net10.0/Shop.Domain.AssemblyInfoInputs.cache
+/Users/hevingmey/Desktop/C#/CW/Shop/Shop.Domain/obj/Debug/net10.0/Shop.Domain.AssemblyInfo.cs
+/Users/hevingmey/Desktop/C#/CW/Shop/Shop.Domain/obj/Debug/net10.0/Shop.Domain.csproj.CoreCompileInputs.cache
+/Users/hevingmey/Desktop/C#/CW/Shop/Shop.Domain/obj/Debug/net10.0/Shop.Domain.sourcelink.json
+/Users/hevingmey/Desktop/C#/CW/Shop/Shop.Domain/obj/Debug/net10.0/Shop.Domain.dll
+/Users/hevingmey/Desktop/C#/CW/Shop/Shop.Domain/obj/Debug/net10.0/refint/Shop.Domain.dll
+/Users/hevingmey/Desktop/C#/CW/Shop/Shop.Domain/obj/Debug/net10.0/Shop.Domain.pdb
+/Users/hevingmey/Desktop/C#/CW/Shop/Shop.Domain/obj/Debug/net10.0/ref/Shop.Domain.dll
