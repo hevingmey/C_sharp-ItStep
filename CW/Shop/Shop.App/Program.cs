@@ -22,7 +22,7 @@ public class Program
 
         if (context.Database.CanConnect())
         {
-        //     Console.WriteLine("Пiдключення до БД встановлено");
+           Console.WriteLine("Пiдключення до БД встановлено");
         //     Users user = new Users();
         //     user.Name = "Alex";
         //     user.Surname = "Smith";
@@ -31,26 +31,26 @@ public class Program
         //     user.HashPassword=BCrypt.Net.BCrypt.HashPassword("123456");
         //     context.Users.Add(user);
         //     context.SaveChanges();
-        var product = new Products
-        {
-            Name = "Fish",
-            Price = 2.2m,
-            CreatedAt =  DateTime.Now,
-        };
+        // var product = new Products
+        // {
+        //     Name = "Fish",
+        //     Price = 2.2m,
+        //     CreatedAt =  DateTime.Now,
+        // };
         // var category = new Category
         // {
         //     Name = "Meat",
         //     CreatedAt =  DateTime.Now,
         //     
         // };
-        var CategoryProduct = new CategoryProduct
-        {
-            Product = product,
-            Store = 21,
-            CategoryId = 2
-        };
-        context.Add(CategoryProduct);
-        context.SaveChanges();
+        // var CategoryProduct = new CategoryProduct
+        // {
+        //     Product = product,
+        //     Store = 21,
+        //     CategoryId = 2
+        // };
+        // context.Add(CategoryProduct);
+        // context.SaveChanges();
 
         }
         else

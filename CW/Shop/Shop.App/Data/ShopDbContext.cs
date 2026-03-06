@@ -17,9 +17,9 @@ public class ShopDbContext:DbContext
 
     }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        modelBuilder.ApplyConfiguration(new ConfigurationUser());
-        modelBuilder.ApplyConfiguration(new CategoryProductConfiguration());
-    }
+    // protected override void OnModelCreating(ModelBuilder modelBuilder)
+    // {
+    //     modelBuilder.ApplyConfiguration(new ConfigurationUser());
+    //     modelBuilder.ApplyConfiguration(new CategoryProductConfiguration());
+    // }
 }

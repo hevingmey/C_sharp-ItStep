@@ -22,7 +22,7 @@ namespace Shop.App.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Shop.Domain.Entitys.Category", b =>
+            modelBuilder.Entity("Shop.App.Data.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -30,37 +30,17 @@ namespace Shop.App.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Category");
                 });
 
-            modelBuilder.Entity("Shop.Domain.Entitys.CategoryProduct", b =>
-                {
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Store")
-                        .HasColumnType("int");
-
-                    b.HasKey("ProductId", "CategoryId");
-
-                    b.HasIndex("CategoryId");
-
-                    b.ToTable("CategoryProducts");
-                });
-
-            modelBuilder.Entity("Shop.Domain.Entitys.Order", b =>
+            modelBuilder.Entity("Shop.App.Data.CategoryProduct", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -68,14 +48,34 @@ namespace Shop.App.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("OrderDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("Staus")
+                    b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
-                    b.Property<int>("TotalAmount")
+                    b.Property<int>("ProductId")
                         .HasColumnType("int");
+
+                    b.Property<int>("ProductsId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Store")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
+                    b.HasIndex("ProductsId");
+
+                    b.ToTable("CategoryProducts");
+                });
+
+            modelBuilder.Entity("Shop.App.Data.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
@@ -87,7 +87,7 @@ namespace Shop.App.Migrations
                     b.ToTable("Orders");
                 });
 
-            modelBuilder.Entity("Shop.Domain.Entitys.OrderItem", b =>
+            modelBuilder.Entity("Shop.App.Data.OrderItem", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -97,9 +97,6 @@ namespace Shop.App.Migrations
 
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
-
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
@@ -116,7 +113,7 @@ namespace Shop.App.Migrations
                     b.ToTable("OrderItems");
                 });
 
-            modelBuilder.Entity("Shop.Domain.Entitys.Products", b =>
+            modelBuilder.Entity("Shop.App.Data.Products", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -124,12 +121,10 @@ namespace Shop.App.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
@@ -148,12 +143,10 @@ namespace Shop.App.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("CreatedAt")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValueSql("getdate()");
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Email")
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("HashPassword")
                         .IsRequired()
@@ -172,38 +165,29 @@ namespace Shop.App.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("Email")
-                        .IsUnique()
-                        .HasFilter("[Email] IS NOT NULL");
-
-                    b.ToTable("Users", t =>
-                        {
-                            t.HasCheckConstraint("Check_surname", "Len([surname])>=1");
-
-                            t.HasCheckConstraint("rolleCheck", "[Role] In (0,1,2,3)");
-                        });
+                    b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Shop.Domain.Entitys.CategoryProduct", b =>
+            modelBuilder.Entity("Shop.App.Data.CategoryProduct", b =>
                 {
-                    b.HasOne("Shop.Domain.Entitys.Category", "Category")
+                    b.HasOne("Shop.App.Data.Category", "Category")
                         .WithMany("CategoryProducts")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Shop.Domain.Entitys.Products", "Product")
+                    b.HasOne("Shop.App.Data.Products", "Products")
                         .WithMany("CategoryProducts")
-                        .HasForeignKey("ProductId")
+                        .HasForeignKey("ProductsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Category");
 
-                    b.Navigation("Product");
+                    b.Navigation("Products");
                 });
 
-            modelBuilder.Entity("Shop.Domain.Entitys.Order", b =>
+            modelBuilder.Entity("Shop.App.Data.Order", b =>
                 {
                     b.HasOne("Shop.Domain.Entitys.Users", "User")
                         .WithMany()
@@ -214,33 +198,35 @@ namespace Shop.App.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Shop.Domain.Entitys.OrderItem", b =>
+            modelBuilder.Entity("Shop.App.Data.OrderItem", b =>
                 {
-                    b.HasOne("Shop.Domain.Entitys.Order", "Order")
+                    b.HasOne("Shop.App.Data.Order", "Order")
                         .WithMany()
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Shop.Domain.Entitys.Products", "Product")
-                        .WithMany()
+                    b.HasOne("Shop.App.Data.Products", "Products")
+                        .WithMany("OrderItems")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Order");
 
-                    b.Navigation("Product");
+                    b.Navigation("Products");
                 });
 
-            modelBuilder.Entity("Shop.Domain.Entitys.Category", b =>
+            modelBuilder.Entity("Shop.App.Data.Category", b =>
                 {
                     b.Navigation("CategoryProducts");
                 });
 
-            modelBuilder.Entity("Shop.Domain.Entitys.Products", b =>
+            modelBuilder.Entity("Shop.App.Data.Products", b =>
                 {
                     b.Navigation("CategoryProducts");
+
+                    b.Navigation("OrderItems");
                 });
 #pragma warning restore 612, 618
         }
