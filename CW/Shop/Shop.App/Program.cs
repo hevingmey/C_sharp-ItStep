@@ -51,6 +51,8 @@ public class Program
         // };
         // context.Add(CategoryProduct);
         // context.SaveChanges();
+        
+     
 
         }
         else
