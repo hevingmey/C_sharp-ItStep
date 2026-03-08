@@ -13,5 +13,5 @@ public class Users
      public string HashPassword { get; set; }
      public string? Email { get; set; }
      public UserRole Role { get; set; }= UserRole.User;
-     public DateTime CreatedAt { get; set; }
+     public DateTime CreatedAt { get; set; }= DateTime.Now;
 }

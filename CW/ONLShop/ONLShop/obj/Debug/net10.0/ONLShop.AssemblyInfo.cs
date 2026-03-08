@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ONLShop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5f9cd77d3064d78d4b3c3a48854c32d9a2d48e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7460f3b8a2cd02958fe1c2bffc3581a2a3fc839e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ONLShop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ONLShop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,7 +11,8 @@ public class Category
     [MaxLength(1000)] 
     [Required]
     public string Name { get; set; }
-    public DateTime CreatedAt { get; set; }
+
+    public DateTime CreatedAt { get; set; } = DateTime.Now;
 
     public ICollection<CategoryProduct> CategoryProducts { get; set; } = new List<CategoryProduct>();
 
