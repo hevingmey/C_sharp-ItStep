@@ -1,5 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Shop.App.Data;
+using Shop.App.Repositories;
+using Shop.App.Services;
 using Shop.Domain.Entitys;
 using Shop.Domain.Enums;
 
@@ -22,37 +24,20 @@ public class Program
 
         if (context.Database.CanConnect())
         {
-        //     Console.WriteLine("Пiдключення до БД встановлено");
-        //     Users user = new Users();
-        //     user.Name = "Alex";
-        //     user.Surname = "Smith";
-        //     user.Email = "alex@gmail.com";
-        //     user.Role = UserRole.ADMIN;
-        //     user.HashPassword=BCrypt.Net.BCrypt.HashPassword("123456");
-        //     context.Users.Add(user);
-        //     context.SaveChanges();
-        var product = new Products
-        {
-            Name = "Fish",
-            Price = 2.2m,
-            CreatedAt =  DateTime.Now,
-        };
-        // var category = new Category
-        // {
-        //     Name = "Meat",
-        //     CreatedAt =  DateTime.Now,
-        //     
-        // };
-        var CategoryProduct = new CategoryProduct
-        {
-            Product = product,
-            Store = 21,
-            CategoryId = 2
-        };
-        context.Add(CategoryProduct);
-        context.SaveChanges();
-
+            //     Console.WriteLine("Пiдключення до БД встановлено");
+            //     Users user = new Users();
+            //     user.Name = "Alex";
+            //     user.Surname = "Smith";
+            //     user.Email = "alex@gmail.com";
+            //     user.Role = UserRole.ADMIN;
+            //     user.HashPassword=BCrypt.Net.BCrypt.HashPassword("123456");
+            //     context.Users.Add(user);
+            //     context.SaveChanges();
+            var repository=new OrderRepository(context);
+            var service = new OrderService(repository);
+            service.CreateOrder();
         }
+        
         else
         {
             Console.WriteLine("Не вдалось підключитись до БД");
