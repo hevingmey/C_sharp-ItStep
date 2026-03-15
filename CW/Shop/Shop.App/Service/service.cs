@@ -7,22 +7,6 @@ namespace Shop.App.Service;
 
 public class service
 {
-    public static void CreateOrder1(ShopDbContext context)
-    {
-        Console.WriteLine("enter user id");
-        int userId = int.Parse(Console.ReadLine());
-        Console.WriteLine("status");
-        int status = int.Parse(Console.ReadLine());
-        var createOrder = new Order
-        {
-            UserId = userId,
-            Status = (StatusRole)status
-            
-        };
-        context.Add(createOrder);
-        context.SaveChanges();
-        Console.WriteLine("Order created");
-    }
     public class OrderService
     {
         private readonly OrderRepository _repository;
@@ -37,7 +21,7 @@ public class service
             Console.WriteLine("Enter user id:");
             int userId = int.Parse(Console.ReadLine()!);
 
-            var products = new Dictionary<int, int>();
+            var products = new List<(int productId, int quantity)>();
 
             while (true)
             {
@@ -47,13 +31,15 @@ public class service
                 Console.WriteLine("Enter quantity:");
                 int quantity = int.Parse(Console.ReadLine()!);
 
-                products.Add(productId, quantity);
+                products.Add((productId, quantity));
 
                 Console.WriteLine("Add another product? (yes/no)");
                 string answer = Console.ReadLine()!.ToLower();
 
                 if (answer != "yes")
+                {
                     break;
+                }
             }
 
             try
@@ -67,8 +53,11 @@ public class service
             }
         }
     }
+  
 
-    
+   
+
+
 
     public static void Registration(ShopDbContext context)
     {
@@ -102,7 +91,7 @@ public class service
         string name = Console.ReadLine();
         Console.WriteLine("enter price: ");
         decimal price = decimal.Parse(Console.ReadLine());
-      
+
         var product = new Product
         {
             Name = name,
@@ -125,7 +114,7 @@ public class service
         context.Add(category);
         context.SaveChanges();
         Console.WriteLine("Category created");
-        
+
     }
 
     public static void DeleteCategory(ShopDbContext context)
@@ -140,5 +129,5 @@ public class service
         context.SaveChanges();
         Console.WriteLine("Category deleted");
     }
-
+}
     

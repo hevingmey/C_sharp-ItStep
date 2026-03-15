@@ -1,8 +1,8 @@
-using Microsoft.EntityFrameworkCore;
 using Shop.App.Data;
 using Shop.Domain.Entitys;
-namespace Shop.App.Repository;
+using Shop.Domain.Enums;
 
+namespace Shop.App.Repository;
 
 public class OrderRepository
 {
@@ -13,16 +13,19 @@ public class OrderRepository
         _context = context;
     }
 
-    public void CreateOrder(int userId, Dictionary<int, int> products)
+    public void CreateOrder(int userId, List<(int productId, int quantity)> products)
     {
         using var transaction = _context.Database.BeginTransaction();
 
         try
         {
+            decimal totalAmount = 0;
+
             var order = new Order
             {
                 UserId = userId,
-                OrderDate = DateTime.Now
+                OrderDate = DateTime.Now,
+                Status = StatusRole.paid
             };
 
             _context.Order.Add(order);
@@ -30,30 +33,36 @@ public class OrderRepository
 
             foreach (var item in products)
             {
-                int productId = item.Key;
-                int quantity = item.Value;
+                var product = _context.Product.Find(item.productId);
 
-                var product = _context.Product.Find(productId);
-
-                if (product == null || product.Store < quantity)
+                if (product == null)
                 {
-                    throw new Exception("Not enough product in store");
+                    throw new Exception($"Product with id {item.productId} not found");
+                }
+
+                if (product.Store < item.quantity)
+                {
+                    throw new Exception($"Not enough product in store. Product id: {item.productId}");
                 }
 
                 var orderItem = new OrderItem
                 {
                     OrderId = order.Id,
-                    ProductId = productId,
-                    Quantity = quantity
+                    ProductId = product.Id,
+                    Quantity = item.quantity,
+                    Price = product.Price
                 };
 
-                product.Store -= quantity;
+                product.Store -= item.quantity;
+
+                totalAmount += product.Price * item.quantity;
 
                 _context.OrderItems.Add(orderItem);
             }
 
-            _context.SaveChanges();
+            order.TotalAmount = totalAmount;
 
+            _context.SaveChanges();
             transaction.Commit();
         }
         catch
