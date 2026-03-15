@@ -10,5 +10,6 @@ public class PublisherConfiguration:IEntityTypeConfiguration<Publisher>
     {
         builder.ToTable("Publishers");
         builder.HasIndex(x => x.Name).IsUnique();
+        builder.Property(x => x.Name).IsRequired().HasMaxLength(50);
     }
 }

@@ -10,6 +10,8 @@ public class AuthorConfiguration:IEntityTypeConfiguration<Author>
     {
         builder.ToTable("Authors");
         builder.HasKey(x => x.Id);
-        
+        builder.HasIndex(x => x.FullName).IsUnique();
+
+
     }
 }

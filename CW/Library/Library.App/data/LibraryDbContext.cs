@@ -11,6 +11,7 @@ public class LibraryDbContext:DbContext
     public DbSet<Author> Authors { get; set; }
     public DbSet<Publisher> Publishers { get; set; }
     public DbSet<Genre> Genres { get; set; }
+    public DbSet<Series> Series { get; set; }
     
     public LibraryDbContext(DbContextOptions options) : base(options)
     {
@@ -21,5 +22,9 @@ public class LibraryDbContext:DbContext
     {
         modelBuilder.ApplyConfiguration(new PublisherConfiguration());
         modelBuilder.ApplyConfiguration(new BookGenreConfiguration());
+        modelBuilder.ApplyConfiguration(new BookConfiguration());
+        modelBuilder.ApplyConfiguration(new AuthorConfiguration());
+        modelBuilder.ApplyConfiguration(new SeriesConfiguration());
+        
     }
 }
