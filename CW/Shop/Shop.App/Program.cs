@@ -1,6 +1,7 @@
 ﻿using System.Dynamic;
 using Microsoft.Extensions.DependencyInjection;
 using Shop.App.Data;
+using Shop.App.Managers;
 using Shop.App.Service;
 using Shop.Domain.Entitys;
 using Shop.Domain.Enums;
@@ -21,6 +22,7 @@ public class Program
 
         using var scope = provider.CreateScope();
         var context = scope.ServiceProvider.GetRequiredService<ShopDbContext>();
+        
 
         if (context.Database.CanConnect())
         {
@@ -30,7 +32,9 @@ public class Program
       // service.CreateProduct(context);
 
      // service.Registration(context);
-        
+     var manager = scope.ServiceProvider.GetRequiredService<ShopManager>();  
+     
+        manager.Start();
      
 
         }
