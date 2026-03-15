@@ -12,6 +12,19 @@ public class ProductRepository
     {
         _context = context;
     }
+    
+    public void AddRange(List<Product> products)
+    {
+        _context.Product.AddRange(products);
+        _context.SaveChanges();
+    }
+
+    public Product FindName(string name)
+    {
+        return _context.Product
+            .AsNoTracking()
+            .FirstOrDefault(x => x.Name == name);
+    }
 
     public List<Product> GetAllProducts()
     {
