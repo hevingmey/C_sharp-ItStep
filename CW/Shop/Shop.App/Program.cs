@@ -28,7 +28,7 @@ public class Program
       // service.CreateCategory(context);
        //   service.DeleteCategory(context); 
       // service.CreateProduct(context);
-      service.CreateOrder(context);
+
      // service.Registration(context);
         
      
