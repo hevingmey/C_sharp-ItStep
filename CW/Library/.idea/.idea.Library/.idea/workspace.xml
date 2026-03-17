@@ -5,9 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2675b122-e4d8-4032-bf67-65bd64d1dc73" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Shop/Shop.App/Repository/ProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop/Shop.App/Service/ProductService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.App/Configurator/BookDiscountConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.App/Configurator/OrderConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.App/Configurator/OrderItemConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.Domain/Entitys/BookDiscount.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.Domain/Entitys/Order.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.Domain/Entitys/OrderItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library.Domain/Entitys/WithdrawnFromSale.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SystemPrograming/SystemPrograming/ProcessDemo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Library/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Library/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/Repositories/BookRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/Repositories/BookRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/Services/BookServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/Services/BookServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/data/LibraryDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/data/LibraryDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Domain/Entitys/Book.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Domain/Entitys/Book.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Domain/obj/Debug/net10.0/Library.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Domain/obj/Debug/net10.0/Library.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Domain/obj/Debug/net10.0/Library.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Domain/obj/Debug/net10.0/Library.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,35 +35,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "hevingmey"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hevingmey&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/hevingmey/C_sharp-ItStep.git",
-    "accountId": "44867a42-d2c2-404a-9f5a-31b34f998fbb"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hevingmey/C_sharp-ItStep.git&quot;,
+    &quot;accountId&quot;: &quot;44867a42-d2c2-404a-9f5a-31b34f998fbb&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="3AzAW3Sw1sH0jmbkUrssb9GYRTO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "data-anotation",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;data-anotation&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Library.App" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -77,12 +96,15 @@
       <option name="presentableId" value="Default" />
       <updated>1773585055394</updated>
       <workItem from="1773585061580" duration="47000" />
+      <workItem from="1773587612956" duration="2424000" />
+      <workItem from="1773777107667" duration="6019000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

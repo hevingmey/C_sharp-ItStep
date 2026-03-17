@@ -17,6 +17,8 @@ public class Book
     public Author? Author { get; set; }
     public int? PublisherId { get; set; }
     public Publisher? Publisher { get; set; }
+    public int TotalAmount{get;set;}
+    public ICollection<BookDiscount> BookDiscounts { get; set; }=new List<BookDiscount>();
     
     public ICollection<BookGenre> BookGenres { get; set; } = new List<BookGenre>();
     

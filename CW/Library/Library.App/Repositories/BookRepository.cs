@@ -19,13 +19,27 @@ public class BookRepository
 
     public void DeleteBook(int id)
     {
-        var  book = _context.Books.Find(id);
+        var book = _context.Books.Find(id);
         if (book != null)
         {
 
             _context.Books.Remove(book);
             _context.SaveChanges();
         }
+    }
+
+    public void AddBookToDiscount(int bookDiscountId, decimal discount)
+    {var book = _context.Books.Find(bookDiscountId);
+        if (book == null)
+            throw new Exception("Book not found");
+            
+        var bokdiscount = new BookDiscount
+        {
+            BookId = bookDiscountId,
+            Discount =book.SalesPrice-(book.SalesPrice * discount/100m)
+        };
+        _context.BookDiscounts.Add(bokdiscount);
+        _context.SaveChanges();
     }
 
     public void addBook(Book book)
@@ -38,60 +52,67 @@ public class BookRepository
     {
         var bookToUpdate = _context.Books.Find(id);
         bookToUpdate.Name = name;
-        _context.SaveChanges();
     }
 
     public void updateBookTotalPages(int pages, int id)
     {
         var bookToUpdate = _context.Books.Find(id);
         bookToUpdate.TotalPages = pages;
-        _context.SaveChanges();
     }
 
     public void updateBookCostPrice(decimal cost, int id)
     {
         var bookToUpdate = _context.Books.Find(id);
         bookToUpdate.CostPrice = cost;
-        _context.SaveChanges();
     }
 
     public void updateBookSalesPrice(decimal sales, int id)
     {
         var bookToUpdate = _context.Books.Find(id);
         bookToUpdate.SalesPrice = sales;
-        _context.SaveChanges();
     }
 
     public void updateBookIsbn(bool isseries, int id)
     {
         var bookToUpdate = _context.Books.Find(id);
         bookToUpdate.IsSeries = isseries;
-        _context.SaveChanges();
     }
 
     public void updateBookAuthor(int aId, int id)
     {
         var bookToUpdate = _context.Books.Find(id);
         bookToUpdate.AuthorId = aId;
-        _context.SaveChanges();
     }
 
     public void updateBookPublisher(int pId, int id)
     {
         var bookToUpdate = _context.Books.Find(id);
-        bookToUpdate.PublisherId = pId; 
-        _context.SaveChanges();
+        bookToUpdate.PublisherId = pId;
+     
     }
 
     public void updateBookDate(DateTime date, int id)
     {
         var bookToUpdate = _context.Books.Find(id);
         bookToUpdate.dataRelise = date;
-        _context.SaveChanges();
+        
+    }
+
+    public void UpdateBookTotalAmount(int totalamount, int id)
+    {
+        var bookToUpdate = _context.Books.Find(id);
+        bookToUpdate.TotalAmount = totalamount;
+       
     }
 
     public List<Book> GetBooks()
     {
         return _context.Books.ToList();
     }
+ 
+    public  Book GetBookId(int id)
+    {
+        return _context.Books.Find(id);
+    }
+    
 }

@@ -12,6 +12,9 @@ public class LibraryDbContext:DbContext
     public DbSet<Publisher> Publishers { get; set; }
     public DbSet<Genre> Genres { get; set; }
     public DbSet<Series> Series { get; set; }
+    public DbSet<BookDiscount> BookDiscounts { get; set; }
+    public DbSet<Order> Orders { get; set; }
+    public DbSet<OrderItem> OrderItems { get; set; }
     
     public LibraryDbContext(DbContextOptions options) : base(options)
     {
