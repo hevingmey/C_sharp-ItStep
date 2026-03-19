@@ -52,42 +52,49 @@ public class BookRepository
     {
         var bookToUpdate = _context.Books.Find(id);
         bookToUpdate.Name = name;
+        _context.SaveChanges();
     }
 
     public void updateBookTotalPages(int pages, int id)
     {
         var bookToUpdate = _context.Books.Find(id);
         bookToUpdate.TotalPages = pages;
+        _context.SaveChanges();
     }
 
     public void updateBookCostPrice(decimal cost, int id)
     {
         var bookToUpdate = _context.Books.Find(id);
         bookToUpdate.CostPrice = cost;
+        _context.SaveChanges();
     }
 
     public void updateBookSalesPrice(decimal sales, int id)
     {
         var bookToUpdate = _context.Books.Find(id);
         bookToUpdate.SalesPrice = sales;
+        _context.SaveChanges();
     }
 
     public void updateBookIsbn(bool isseries, int id)
     {
         var bookToUpdate = _context.Books.Find(id);
         bookToUpdate.IsSeries = isseries;
+        _context.SaveChanges();
     }
 
     public void updateBookAuthor(int aId, int id)
     {
         var bookToUpdate = _context.Books.Find(id);
         bookToUpdate.AuthorId = aId;
+        _context.SaveChanges();
     }
 
     public void updateBookPublisher(int pId, int id)
     {
         var bookToUpdate = _context.Books.Find(id);
         bookToUpdate.PublisherId = pId;
+        _context.SaveChanges();
      
     }
 
@@ -95,6 +102,7 @@ public class BookRepository
     {
         var bookToUpdate = _context.Books.Find(id);
         bookToUpdate.dataRelise = date;
+        _context.SaveChanges();
         
     }
 
@@ -102,6 +110,7 @@ public class BookRepository
     {
         var bookToUpdate = _context.Books.Find(id);
         bookToUpdate.TotalAmount = totalamount;
+        _context.SaveChanges();
        
     }
 

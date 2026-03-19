@@ -185,6 +185,7 @@ public class BookServices
                     throw new Exception("No book found");
                 book.TotalAmount--;
                 order.books.Add(book);
+                _context.SaveChanges();
                 transaction.Commit();
             }
             catch 

@@ -15,7 +15,8 @@ public class ProcessDemo
             Console.WriteLine("3: kill process");
             Console.WriteLine("4: GetProcessById");
             Console.WriteLine("5: show all processes Filter");
-            Console.WriteLine("6: Exit Program");
+            Console.WriteLine("6: testProgram");
+            Console.WriteLine("7: Exit Program");
             key = Console.ReadKey();
             switch (key.KeyChar)
             {
@@ -41,6 +42,12 @@ public class ProcessDemo
                 default:
                     Console.WriteLine("Invalid key");
                     break;
+                case '6':
+                    Console.WriteLine("call test Program");
+                    CallTestProgram();
+                    break;
+               
+                    
 
             }
         }while(key.KeyChar != '0');
@@ -66,6 +73,31 @@ public class ProcessDemo
             Console.WriteLine("program wasn't active");
         }
         
+    }
+
+    private void CallTestProgram()
+    {
+        string exePath = "/Users/hevingmey/Desktop/C#/CW/SystemPrograming/TestProgram/bin/Debug/net10.0/TestProgram";
+        string arg = "hi";
+        ProcessStartInfo startInfo = new ProcessStartInfo()
+        {
+            FileName = exePath,
+            Arguments = arg,
+            UseShellExecute = false,
+            RedirectStandardOutput = true,
+            RedirectStandardError = true,
+            CreateNoWindow = true
+        };
+        using (Process process = new Process())
+        {
+            process.StartInfo = startInfo;
+            process.Start();
+            string output = process.StandardOutput.ReadToEnd();
+            string error = process.StandardError.ReadToEnd();
+            process.WaitForExit();
+            Console.WriteLine(" ");
+            Console.WriteLine($"result: {output}");
+        }
     }
 
     private void GetProcessById()
@@ -107,7 +139,7 @@ public class ProcessDemo
                 try
                 {
 
-                    Process.Start("open", $"-a {processName} ");
+                    Process.Start("open", $"-a \"{processName}\" ");
                     Console.WriteLine("process created");
                 }
     
@@ -116,6 +148,7 @@ public class ProcessDemo
             Console.WriteLine("warnig");
             
         }
+                
           
       
 

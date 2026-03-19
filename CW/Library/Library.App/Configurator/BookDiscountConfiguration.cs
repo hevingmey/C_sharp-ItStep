@@ -8,7 +8,7 @@ public class BookDiscountConfiguration:IEntityTypeConfiguration<BookDiscount>
 {
     public void Configure(EntityTypeBuilder<BookDiscount> builder)
     {
-        builder.ToTable("BookDiscounts");
+        builder.ToTable("Winter Discount");
         builder.Property(x => x.BookId).IsRequired();
         builder.Property(x => x.Discount).IsRequired();
         
