@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Globalization;
 
 namespace SystemPrograming;
 
@@ -17,6 +18,9 @@ public class ProcessDemo
             Console.WriteLine("5: show all processes Filter");
             Console.WriteLine("6: testProgram");
             Console.WriteLine("7: Exit Program");
+            Console.WriteLine("8: open Dou.ua");
+            Console.WriteLine("9: created and write all processes");
+                
             key = Console.ReadKey();
             switch (key.KeyChar)
             {
@@ -46,6 +50,16 @@ public class ProcessDemo
                     Console.WriteLine("call test Program");
                     CallTestProgram();
                     break;
+                case '8':
+                    Console.WriteLine("open Dou.ua");
+                    OpenDouUa();
+                    break;
+                case '9':
+                    Console.WriteLine("Show and write all processes");
+                    ShowAndWriteProcess();
+                    break;
+                
+                    
                
                     
 
@@ -73,6 +87,31 @@ public class ProcessDemo
             Console.WriteLine("program wasn't active");
         }
         
+    }
+
+    private void ShowAndWriteProcess()
+    {
+        var proceses = Process.GetProcesses();
+        List<string> proc = new List<string>();
+        proc.Add($"{DateTime.Now}");
+        foreach (var p in proceses)
+        {
+            try
+            {
+                string obj=$"{p.ProcessName} PID: {p.Id}";
+                Console.WriteLine(obj);
+                proc.Add(obj);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+        }
+        string FileName = $"ProcessDemo.txt";
+        string creat=Path.Combine(AppContext.BaseDirectory,FileName);
+        File.WriteAllLines(creat, proc);
+        Console.WriteLine($"file was created in : {creat}");
     }
 
     private void CallTestProgram()
@@ -123,6 +162,14 @@ public class ProcessDemo
         {
             Console.WriteLine($"{process.ProcessName} PID: {process.Id}");
         }
+    }
+    
+                        //Hw 1
+
+    private void OpenDouUa()
+    {
+        Console.WriteLine("Open DouUa");
+        Process.Start("open", "-a \"Google Chrome\" https://dou.ua/ ");
     }
 
     private void CreateProcess()

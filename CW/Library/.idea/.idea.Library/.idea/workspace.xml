@@ -4,29 +4,7 @@
     <projectFile>Library.App/Library.App.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2675b122-e4d8-4032-bf67-65bd64d1dc73" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Library.App/Configurator/SpecialOrderConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.App/Repositories/SearchBookRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.App/Services/SearchBookService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.Domain/Entitys/SpecialOrder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library.Domain/Entitys/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SystemPrograming/SystemPrograming/WorkerDyLib.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Library/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Library/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.App/Configurator/BookDiscountConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/Configurator/BookDiscountConfiguration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.App/Configurator/BookGenreConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.App/Repositories/BookRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/Repositories/BookRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.App/Services/BookServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/Services/BookServices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.App/data/LibraryDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/data/LibraryDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.Domain/Entitys/Book.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Domain/Entitys/Book.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.Domain/Entitys/BookGenre.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.Domain/Entitys/Genre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Domain/Entitys/Genre.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.Domain/Entitys/WithdrawnFromSale.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.Domain/obj/Debug/net10.0/Library.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Domain/obj/Debug/net10.0/Library.Domain.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library.Domain/obj/Debug/net10.0/Library.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Domain/obj/Debug/net10.0/Library.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SystemPrograming/SystemPrograming/ProcessDemo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SystemPrograming/SystemPrograming/ProcessDemo.cs" afterDir="false" />
-    </list>
+    <list default="true" id="2675b122-e4d8-4032-bf67-65bd64d1dc73" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +76,7 @@
       <workItem from="1773585061580" duration="47000" />
       <workItem from="1773587612956" duration="2424000" />
       <workItem from="1773777107667" duration="6115000" />
-      <workItem from="1773949056708" duration="3467000" />
+      <workItem from="1773949056708" duration="4215000" />
     </task>
     <task id="LOCAL-00001" summary="add exsam">
       <option name="closed" value="true" />
@@ -108,7 +86,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773783915095</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add new project">
+      <option name="closed" value="true" />
+      <created>1773953082398</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773953082398</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add new project 1">
+      <option name="closed" value="true" />
+      <created>1773953322061</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773953322061</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +113,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add exsam" />
-    <option name="LAST_COMMIT_MESSAGE" value="add exsam" />
+    <MESSAGE value="Add new project" />
+    <MESSAGE value="add new project 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new project 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
