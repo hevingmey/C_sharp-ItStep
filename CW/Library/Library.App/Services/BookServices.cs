@@ -8,6 +8,7 @@ using Library.App.data;
 using Library.App.Repositories;
 using Library.Domain.Entitys;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.EntityFrameworkCore;
 
 namespace Library.App.Services;
 
@@ -194,6 +195,64 @@ public class BookServices
                 throw;
             }
 
+        }
+        
+        // HTTP server
+        
+        public List<Book> GetAllBooks()
+        {
+            return _context.Books
+                .AsNoTracking()
+                .ToList();
+        }
+
+        public Book? GetBookById(int id)
+        {
+            return _context.Books
+                .AsNoTracking()
+                .FirstOrDefault(b => b.Id == id);
+        }
+
+        public void AddBookFromApi(Book book)
+        {
+            _context.Books.Add(book);
+            _context.SaveChanges();
+        }
+
+        public bool DeleteBookById(int id)
+        {
+            var book = _context.Books.Find(id);
+
+            if (book == null)
+                return false;
+
+            _context.Books.Remove(book);
+            _context.SaveChanges();
+
+            return true;
+        }
+
+        public bool UpdateBookFromApi(int id, Book updatedBook)
+        {
+            var book = _context.Books.Find(id);
+
+            if (book == null)
+                return false;
+
+            book.Name = updatedBook.Name;
+            book.TotalPages = updatedBook.TotalPages;
+            book.CostPrice = updatedBook.CostPrice;
+            book.SalesPrice = updatedBook.SalesPrice;
+            book.IsSeries = updatedBook.IsSeries;
+            book.SeriesId = updatedBook.SeriesId;
+            book.AuthorId = updatedBook.AuthorId;
+            book.PublisherId = updatedBook.PublisherId;
+            book.dataRelise = updatedBook.dataRelise;
+            book.TotalAmount = updatedBook.TotalAmount;
+
+            _context.SaveChanges();
+
+            return true;
         }
     
 

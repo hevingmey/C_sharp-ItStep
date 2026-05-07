@@ -4,13 +4,52 @@
     <projectFile>Library.App/Library.App.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2675b122-e4d8-4032-bf67-65bd64d1dc73" name="Changes" comment="" />
+    <list default="true" id="2675b122-e4d8-4032-bf67-65bd64d1dc73" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../SystemPrograming/SystemPrograming/Models/Currency.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Library/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Library/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/Library.App.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/Library.App.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/Services/BookServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/Services/BookServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/Debug/net10.0/Library.App.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/Library.App.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/Library.App.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/Library.App.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/Library.App.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.App/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library.App/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Domain/obj/Debug/net10.0/Library.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Domain/obj/Debug/net10.0/Library.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Domain/obj/Debug/net10.0/Library.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Domain/obj/Debug/net10.0/Library.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Domain/obj/Library.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Domain/obj/Library.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SystemPrograming/SystemPrograming/Bank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SystemPrograming/SystemPrograming/Models/Bank.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SystemPrograming/SystemPrograming/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SystemPrograming/SystemPrograming/Models/Order.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SystemPrograming/SystemPrograming/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SystemPrograming/SystemPrograming/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="data-anotation" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -34,15 +73,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;data-anotation&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.Library.App.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "data-anotation-exam",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Library.App" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -77,6 +123,10 @@
       <workItem from="1773587612956" duration="2424000" />
       <workItem from="1773777107667" duration="6115000" />
       <workItem from="1773949056708" duration="4215000" />
+      <workItem from="1777653775839" duration="3620000" />
+      <workItem from="1778180221502" duration="23000" />
+      <workItem from="1778180250302" duration="287000" />
+      <workItem from="1778180566011" duration="2986000" />
     </task>
     <task id="LOCAL-00001" summary="add exsam">
       <option name="closed" value="true" />
